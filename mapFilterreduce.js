@@ -14,3 +14,10 @@ companies.forEach(function(company,index)
 
 console.log("For each with arrow function.")
 companies.forEach((comapny,index)=>console.log(comapny))
+
+// using filter function
+const filterAge = ages.filter(age =>age>23)
+console.log(filterAge);
+
+const comapnyType = companies.filter(company=> company.category=='Service Based');
+console.log(comapnyType)
